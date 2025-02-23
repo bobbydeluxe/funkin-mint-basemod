@@ -1,0 +1,39 @@
+[
+	{
+		"save": "testbool",
+		"name": "Test Bool Option",
+		"type": "bool",
+		"description": "This is a test bool option",
+		"value": true
+	},
+	{
+		"save": "testnumber",
+		"name": "Test Number Option",
+		"type": "float",
+		"description": "This is a test number option",
+		"value": 5,
+	
+		"min": 0,
+		"max": 10,
+		"step": 1,
+		"decimals": 1,
+		"scroll": 5
+	},
+	{
+		"save": "teststring",
+		"name": "Test String Option",
+		"type": "string",
+		"description": "This is a test string option",
+		"value": "Sun",
+		"format": "%vday",
+
+		"options": ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"]
+	},
+	{
+		"save": "testkey",
+		"name": "Test Custom Key",
+		"type": "keybind",
+		"keyboard": "T",
+		"gamepad": "RIGHT_TRIGGER"
+	}
+]
