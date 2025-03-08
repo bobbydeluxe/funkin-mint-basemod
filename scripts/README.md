@@ -6,8 +6,10 @@ now there are new types of scripts with their placements altered towards the scr
 
 - character scripts: place in `scripts/characters/` instead of `characters/`
 
+- song-specific scripts: place in `scripts/songs/yourSongFolder/` instead of `data/yourSongFolder/`
+
 - stage scripts: place in `scripts/stages/` instead of `stages/`
 
-- custom event scripts: place in `scripts/events` instead of `custom_events`
+- custom event scripts: place in `scripts/events/` instead of `custom_events/`
 
-- custom event scripts: place in `scripts/notetypes` instead of `custom_notetypes`
+- custom event scripts: place in `scripts/notetypes/` instead of `custom_notetypes/`
